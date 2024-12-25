@@ -28,7 +28,6 @@ This repository contains a **frontend implementation** of the SignIn and Dashboa
 
 Clone the repository and follow these steps to run the application:
 
-```bash
 # Clone the repository
 git clone https://github.com/ydvrahul19/CodeAi.git
 

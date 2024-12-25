@@ -6,7 +6,7 @@ This repository contains a **frontend implementation** of the SignIn and Dashboa
 
 ## 🌐 Live Demo
 
-👉 Check out the live application: **[CodeAnt AI Demo]([https:///](https://code-ai-eight.vercel.app/))**  
+👉 Check out the live application: **[CodeAnt AI Demo]([https://code-ai-eight.vercel.app/])**  
 
 ---
 

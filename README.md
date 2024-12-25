@@ -1,67 +1,99 @@
-# Frontend Developer Assignment - SignIn & Dashboard
+# 🚀 Frontend Developer Assignment: SignIn & Dashboard
 
-This project is a frontend implementation of a SignIn and Dashboard page designed for CodeAnt AI's hiring assignment.
+This repository contains a **frontend implementation** of the SignIn and Dashboard pages for CodeAnt AI's hiring assignment. The project demonstrates responsive design principles, reusable components, and clean coding practices using **React.js**, **TypeScript**, and **Material-UI**.
 
-## Live URL
+---
 
-Check out live application [here](https://codeantai-ochre.vercel.app/).
+## 🌐 Live Demo
 
-## Demo
+👉 Check out the live application: **[CodeAnt AI Demo](https://codeantai-ochre.vercel.app/)**  
 
-To run the application locally, use the following commands:
-```
+---
+
+## 📸 Screenshots
+
+### 🔑 **SignIn Page**
+
+![SignIn Page](./public/signin-page.png)  
+
+### 📊 **Dashboard Page**
+
+![Dashboard Page](./public/dashboard-page.png)  
+
+*(Replace the image paths with the actual paths to your screenshot files)*
+
+---
+
+## 🛠️ Run Locally
+
+Clone the repository and follow these steps to run the application:
+
+```bash
+# Clone the repository
+git clone https://github.com/ydvrahul19/CodeAi.git
+
+# Navigate to the project directory
+cd codeant-ai-assignment
+
+# Install dependencies
 pnpm i
+
+# Start the development server
 pnpm run dev
-```
 
-## Overview
+## Features Overview
 
-This application is part of CodeAnt AI hiring challenge. It consists of a SignIn page and a Dashboard page, built using React.js, TypeScript, and Material-UI. It implements a responsive design with reusable components and follows best practices for clean and maintainable code.
+```plaintext
+🔐 SignIn Page
+- Dual-section layout: Hero image on one side and SignIn options on the other.
+- ToggleButton from Material-UI for selecting various authentication methods.
+- Seamless navigation to the Dashboard upon sign-in.
 
-The main features include:
+🖥️ Dashboard Page
+- Dynamic Navbar: Adjusts to a sidebar on desktops and a top navbar for mobile devices.
+- Data Display: Fetches and presents repository data dynamically.
+- Date Calculations: Uses date-fns to calculate repository update intervals.
+- Enhanced UI: Features icons from react-icons for an intuitive and visually appealing design.
+- Fully responsive layout tailored for all screen sizes.
 
-- A fully responsive layout suitable for various screen sizes.
-- Navigation between the SignIn and Dashboard pages using React Router.
-- Integration of the `date-fns` library for date calculations.
-- A custom Material-UI theme created with `createTheme`.
+🔍 Code Highlights
+- Reusable Components: Built for scalability and maintainability.
+- Strong Typing: Ensures type safety with TypeScript.
+- Theming: Custom Material-UI themes implemented using createTheme.
 
-## Features
+🛡️ Tech Stack
+Technology          Description
+React.js (Vite)     Component-based UI library for performance
+TypeScript          Static typing for safer code
+Material-UI         Elegant UI components and theming
+date-fns            Date utility library
+react-icons         Comprehensive icon library for React
 
-### SignIn Page
+#Key Libraries & Tools
+- React Router: For seamless navigation.
+- Material-UI: Modern React UI framework.
+- date-fns: For handling date/time functions.
+- react-icons: Icon library for intuitive visuals.
 
-- Two sections first for hero image & other for signin options
-- Used `ToggleButton` from MUI library to show different options
-- Upon clicking on any of those buttons, you've been redirected to dashboard page.
+#💡 How it Works 
+1. Users access the SignIn Page, which provides multiple authentication options.
+2. Upon sign-in, users are redirected to the Dashboard Page.
+3. The Dashboard dynamically fetches and displays data while ensuring a polished and responsive user experience.
 
-### Dashboard Page
+#🎨 Responsive Design in Action
+Device      SignIn Page Layout                      Dashboard Layout
+Desktop     Full hero image and SignIn options      Sidebar for navigation
+            side-by-side
 
-- Created a Navbar component that shows sidebar on desktop & navbar on tablet and mobile screens.
-- Displays data dynamically and includes well-organized components.
-- Uses `date-fns` to calculate the difference between today's date and the last updated date of a repository.
-- Includes icons from `react-icons` for an enhanced UI experience.
-- Fully responsive layout with adaptive styling for various screen sizes.
+Tablet      Adjusted spacing for compact views      Navbar replaces sidebar
 
-### Code Quality & Documentation
+Mobile      Stack layout for optimized usability    Navbar remains accessible
 
-- The project is well-documented, ensuring easy understanding and scalability.
-- Reusable components are used throughout the application.
-- Strong typing with TypeScript ensures a type-safe and reliable application.
+#📋 License
+This project is open-source and free to use.
 
-## Highlighted Tools & Components
+#📧 Contact
+If you have any questions or suggestions, feel free to reach out:
 
-- [Material-UI `createTheme`](https://mui.com/material-ui/customization/theming/#createtheme)
-- [React Router](https://reactrouter.com/)
-- [date-fns](https://date-fns.org/)
-- [react-icons](https://react-icons.github.io/react-icons/)
-
-## Tech Stack
-
-- HTML5
-- CSS3
-- React.js (with Vite)
-- TypeScript
-- Material-UI
-- [date-fns](https://date-fns.org/)
-- [react-icons](https://react-icons.github.io/react-icons/)
-- Vite
-
+Email: ydvrahul5616@gmail.com
+Portfolio: https://rahul-yadav-portfolio.vercel.app/

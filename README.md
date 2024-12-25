@@ -1,4 +1,4 @@
-# 🚀 Frontend Developer Assignment: SignIn & Dashboard
+# 🚀 Frontend Developer Assignment
 
 This repository contains a **frontend implementation** of the SignIn and Dashboard pages for CodeAnt AI's hiring assignment. The project demonstrates responsive design principles, reusable components, and clean coding practices using **React.js**, **TypeScript**, and **Material-UI**.
 

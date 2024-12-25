@@ -29,16 +29,26 @@ This repository contains a **frontend implementation** of the SignIn and Dashboa
 Clone the repository and follow these steps to run the application:
 
 # Clone the repository
-git clone https://github.com/ydvrahul19/CodeAi.git
+```bash
+git clone https://github.com/yourusername/DoctorMy.git
+cd CodeAi
+```
 
 # Navigate to the project directory
-cd codeant-ai-assignment
+```bash
+cd CoadAi
+```
 
 # Install dependencies
-pnpm i
+```bash
+pnpm I
+```
+
 
 # Start the development server
+```bash
 pnpm run dev
+```
 
 ## Features Overview
 

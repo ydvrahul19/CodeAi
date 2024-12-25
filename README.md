@@ -14,13 +14,13 @@ This repository contains a **frontend implementation** of the SignIn and Dashboa
 
 ### 🔑 **SignIn Page**
 
-![SignIn Page](./public/signin-page.png)  
+![SignIn Page](./public/sign-page.png)  
 
 ### 📊 **Dashboard Page**
 
 ![Dashboard Page](./public/dashboard-page.png)  
 
-*(Replace the image paths with the actual paths to your screenshot files)*
+
 
 ---
 

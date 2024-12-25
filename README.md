@@ -30,7 +30,7 @@ Clone the repository and follow these steps to run the application:
 
 # Clone the repository
 ```bash
-git clone https://github.com/yourusername/DoctorMy.git
+git clone https://github.com/ydvrahul19/CodeAi.git
 cd CodeAi
 ```
 
